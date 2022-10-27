@@ -5,6 +5,8 @@ body{
 	width:100vw;
 	height: 100vh;
 	color: AliceBlue;
+	align-itens: center;
+	background-image:url("img/night.gif");
 }
 
 h1{
@@ -12,12 +14,11 @@ h1{
 }
 .panel{
 	height: 100vh;
-	width: 100%;
+	width: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-image:url("img/night.gif");
 }
 .question-container{
 	margin: 10px;
